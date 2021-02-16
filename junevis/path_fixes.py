@@ -9,6 +9,7 @@ ROOT = Path(
 SCRIPTS = ROOT / "scripts"
 CLIENT = ROOT / "client"
 PUBLIC = CLIENT / "public"
+DIST = CLIENT / "dist"
 DEMO = PUBLIC / "demo"
 PROJECTS = DEMO / "projects"
 DEFAULT_GEOJSON = DEMO / "coxs_bazar.geojson"
