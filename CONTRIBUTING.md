@@ -1,3 +1,17 @@
+# Setting up the environment
+
+Quickly setting up with [conda](https://docs.conda.io/en/latest/miniconda.html) and [nbdev](https://github.com/fastai/nbdev)
+
+First, name the environment in `environment-dev.yml` your name (e.g., ENV). Then:
+
+```
+conda env create -f environment-dev.yml
+conda activate ENV
+nbdev_install_git_hooks
+pip install -e .
+nbdev_build_lib
+```
+
 # How to contribute
 
 ## How to get started
@@ -30,4 +44,3 @@ nbdev_install_git_hooks
 ## Do you want to contribute to the documentation?
 
 * Docs are automatically created from the notebooks in the nbs folder.
-

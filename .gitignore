@@ -1,3 +1,9 @@
+_archive
+
+# Client stuff
+node_modules
+
+# Other
 *.bak
 .gitattributes
 .last_checked
