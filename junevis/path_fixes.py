@@ -3,11 +3,11 @@
 from pathlib import Path
 import os
 
-ROOT = Path(
+JUNEVIS = Path(
     os.path.abspath(__file__)
-).parent.parent  # Root directory of the project
-SCRIPTS = ROOT / "scripts"
-CLIENT = ROOT / "client"
+).parent
+ROOT = JUNEVIS.parent  # Root directory of the github project
+CLIENT = JUNEVIS / "client"
 PUBLIC = CLIENT / "public"
 DIST = CLIENT / "dist"
 DEMO = PUBLIC / "demo"

@@ -2,10 +2,10 @@ _archive
 
 # Client stuff
 node_modules
-client/public/demo/projects/*
+**/client/public/demo/projects/*
 
 # Example project
-!client/public/demo/projects/learning_centers
+!**/client/public/demo/projects/learning_centers
 
 # Other
 *.bak
