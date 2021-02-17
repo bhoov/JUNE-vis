@@ -1,24 +1,25 @@
-# Project name here
-> Summary description here.
+# JUNE-vis
+> A dashboard to visualize the JUNE simulation results for epidemic modeling and intervention
 
-
-This file will become your README and also the index of your documentation.
 
 ## Install
 
-`pip install your_project_name`
+`pip install junevis`
 
-## How to use
+## Serve the Example Project
 
-Fill me in please! Don't forget code examples:
+This code ships with an example project (`learning_centers`) for the interface. From the command line, run:
 
-```
-1+1
-```
+`junevis_serve` 
 
+## Add new simulation results to JUNE-vis
 
+The `JUNE` simulation logs events as they occur into hdf5 files called `records`. These are transformed into csv files called `summaries` that are automatically placed into a folder the frontend interface can serve. To create a new visualization from a simulation,
 
+`junevis_create path/to/folder/containing/records`
 
-    2
+For more details on the expected contents of this folder, see `create_project.py`
 
+## Known Bugs
 
+- Rendering the geojson associated with the map of England does not work

@@ -1,13 +1,13 @@
 ---
 
-title: Project name here
+title: JUNE-vis
 
 
 keywords: fastai
 sidebar: home_sidebar
 
-summary: "Summary description here."
-description: "Summary description here."
+summary: "A dashboard to visualize the JUNE simulation results for epidemic modeling and intervention"
+description: "A dashboard to visualize the JUNE simulation results for epidemic modeling and intervention"
 nb_path: "nbs/index.ipynb"
 ---
 <!--
@@ -31,70 +31,43 @@ nb_path: "nbs/index.ipynb"
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This file will become your README and also the index of your documentation.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Install">Install<a class="anchor-link" href="#Install"> </a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><code>pip install your_project_name</code></p>
+<p><code>pip install junevis</code></p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="How-to-use">How to use<a class="anchor-link" href="#How-to-use"> </a></h2>
+<h2 id="Serve-the-Example-Project">Serve the Example Project<a class="anchor-link" href="#Serve-the-Example-Project"> </a></h2><p>This code ships with an example project (<code>learning_centers</code>) for the interface. From the command line, run:</p>
+<p><code>junevis_serve</code></p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Fill me in please! Don't forget code examples:</p>
+<h2 id="Add-new-simulation-results-to-JUNE-vis">Add new simulation results to JUNE-vis<a class="anchor-link" href="#Add-new-simulation-results-to-JUNE-vis"> </a></h2><p>The <code>JUNE</code> simulation logs events as they occur into hdf5 files called <code>records</code>. These are transformed into csv files called <code>summaries</code> that are automatically placed into a folder the frontend interface can serve. To create a new visualization from a simulation,</p>
+<p><code>junevis_create path/to/folder/containing/records</code></p>
+<p>For more details on the expected contents of this folder, see <code>create_project.py</code></p>
 
 </div>
 </div>
 </div>
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="mi">1</span><span class="o">+</span><span class="mi">1</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>2</pre>
-</div>
-
-</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Known-Bugs">Known Bugs<a class="anchor-link" href="#Known-Bugs"> </a></h2><ul>
+<li>Rendering the geojson associated with the map of England does not work</li>
+</ul>
 
 </div>
 </div>
-
 </div>
-    {% endraw %}
-
 </div>
  
 
