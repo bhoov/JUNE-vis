@@ -20,11 +20,11 @@ The `JUNE` simulation logs events as they occur into hdf5 files called `records`
 
 For more details on the expected contents of this folder, see `create_project.py`
 
-## Walkthrough
+# Walkthrough
 
-### The Explore Page
+## The Explore Page
 
-#### The parameter selection grid
+### The parameter selection grid
 
 Choose which runs to compare across a single dimension:
 
@@ -32,13 +32,13 @@ Choose which runs to compare across a single dimension:
 
 The parameter grid (left) is designed so you can view a single simulation by clicking on a valid combination of hyperparameter values. Alternatively, you can highlight all the values of the hyperparameters by clicking on the name of the hyperparameter to compare simulations accross all values of that dimension.
 
-#### A card and SIR cruve for every simulation
+### A card and SIR cruve for every simulation
 
 Every run is associated with a set of hyperparameters. Its effect can be summarized with an SIR curve, shown as the thumbnail:
 
 <img src="nbs/img/Explore_Cards.png" alt="SIR Cards on the Explore Page" width="600/" style="max-width: 600/px"> 
 
-### The Detailed Comparison Page
+## The Detailed Comparison Page
 
 Sometimes we want to compare simulations across more subtle effects, such as the difference in where the infections occurred, shown below:
 
@@ -50,7 +50,7 @@ You can add any additional plot here to compare between two simulations. Include
 
 The slider will color the background of each region according to the selected dimension at that point in time.
 
-### The Geography Overview
+## The Geography Overview
 
 To see the geographical effects of all simulations at once, we include a special page to sort and observe the peak value at each location for the course of a simulation:
 
