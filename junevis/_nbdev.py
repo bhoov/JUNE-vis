@@ -11,7 +11,7 @@ index = {"init_available_projects": "00_Create Project.ipynb",
 
 modules = ["create_project.py"]
 
-doc_url = "https://bhoov.github.io/junevis/"
+doc_url = "https://bhoov.github.io/JUNE-vis/"
 
 git_url = "https://github.com/bhoov/junevis/tree/master/"
 
