@@ -13,6 +13,6 @@ modules = ["create_project.py"]
 
 doc_url = "https://bhoov.github.io/JUNE-vis/"
 
-git_url = "https://github.com/bhoov/junevis/tree/master/"
+git_url = "https://github.com/bhoov/JUNE-vis/tree/master/"
 
 def custom_doc_links(name): return None

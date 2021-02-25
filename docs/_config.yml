@@ -1,7 +1,7 @@
-repository: bhoov/junevis
+repository: bhoov/JUNE-vis
 output: web
-topnav_title: junevis
-site_title: junevis
+topnav_title: JUNE-vis
+site_title: JUNE-vis
 company_name: Benjamin Hoover
 description: A dashboard to analyze the results of the JUNE epidemic and intervention simulator
 # Set to false to disable KaTeX math
@@ -20,8 +20,6 @@ exclude:
   - .idea/
   - .gitignore
   - vendor
- 
-exclude: [vendor]
 
 highlighter: rouge
 markdown: kramdown
