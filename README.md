@@ -18,7 +18,7 @@ The `JUNE` simulation logs events as they occur into hdf5 files called `records`
 
 `junevis_create path/to/folder/containing/records`
 
-For more details on the expected contents of this folder, see `create_project.py`
+For more details on the expected contents of this folder, see [this documentation](`https://bhoov.github.io/JUNE-vis/Create%20Project.html`).
 
 # Walkthrough
 
