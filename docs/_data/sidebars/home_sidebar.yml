@@ -12,9 +12,6 @@ entries:
     - output: web,pdf
       title: Initializing a new project
       url: Create Project.html
-    - output: web,pdf
-      title: Data Exploring
-      url: Old project initialization from summary files and records.html
     output: web
     title: junevis
   output: web
