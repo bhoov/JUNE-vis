@@ -29,6 +29,30 @@ nb_path: "nbs/00_Create Project.ipynb"
 </div>
     {% endraw %}
 
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Assumes the following folder structure. It is important that logger files are named <code>record_NN.h5</code> or <code>record_NNN.h5</code></p>
+<p>Note that, because the data format to communicate parameters used is a Pickle file, the filenames <strong>MUST</strong> be indexed at 0</p>
+
+<pre><code>SIMULATION_NAME/
+    parameter_grid.json #Describes each run
+    record_00.h5
+    record_01.h5
+    ...
+    record_NN.h5 # Each logger run
+    sites.geojson # Polygons of the regions</code></pre>
+<p>From this information, you can specify an <code>output_directory</code> where summaries will automatically be available for frontend analysis.</p>
+
+<pre><code>public/demo/projects/SIMULATION_NAME/
+    metadata.json
+    summary_000.csv
+    summary_001.csv
+    ...
+    summary_NNN.csv</code></pre>
+
+</div>
+</div>
+</div>
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
