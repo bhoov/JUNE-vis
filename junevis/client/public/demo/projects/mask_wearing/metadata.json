@@ -1,0 +1,855 @@
+{
+    "description": "NA",
+    "parameters_varied": [
+        "mask_beta_factor",
+        "mask_compliance",
+        "mask_wearing",
+        "indoor_beta_ratio",
+        "outdoor_beta_ratio"
+    ],
+    "run_parameters": {
+        "0": {
+            "mask_beta_factor": 0.1,
+            "mask_compliance": 0.1,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "1": {
+            "mask_beta_factor": 0.1,
+            "mask_compliance": 0.25,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "2": {
+            "mask_beta_factor": 0.1,
+            "mask_compliance": 0.5,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "3": {
+            "mask_beta_factor": 0.1,
+            "mask_compliance": 0.75,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "4": {
+            "mask_beta_factor": 0.1,
+            "mask_compliance": 1.0,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "5": {
+            "mask_beta_factor": 0.2,
+            "mask_compliance": 0.1,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "6": {
+            "mask_beta_factor": 0.2,
+            "mask_compliance": 0.25,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "7": {
+            "mask_beta_factor": 0.2,
+            "mask_compliance": 0.5,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "8": {
+            "mask_beta_factor": 0.2,
+            "mask_compliance": 0.75,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "9": {
+            "mask_beta_factor": 0.2,
+            "mask_compliance": 1.0,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "10": {
+            "mask_beta_factor": 0.30000000000000004,
+            "mask_compliance": 0.1,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "11": {
+            "mask_beta_factor": 0.30000000000000004,
+            "mask_compliance": 0.25,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "12": {
+            "mask_beta_factor": 0.30000000000000004,
+            "mask_compliance": 0.5,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "13": {
+            "mask_beta_factor": 0.30000000000000004,
+            "mask_compliance": 0.75,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "14": {
+            "mask_beta_factor": 0.30000000000000004,
+            "mask_compliance": 1.0,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "15": {
+            "mask_beta_factor": 0.4,
+            "mask_compliance": 0.1,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "16": {
+            "mask_beta_factor": 0.4,
+            "mask_compliance": 0.25,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "17": {
+            "mask_beta_factor": 0.4,
+            "mask_compliance": 0.5,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "18": {
+            "mask_beta_factor": 0.4,
+            "mask_compliance": 0.75,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "19": {
+            "mask_beta_factor": 0.4,
+            "mask_compliance": 1.0,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "20": {
+            "mask_beta_factor": 0.5,
+            "mask_compliance": 0.1,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "21": {
+            "mask_beta_factor": 0.5,
+            "mask_compliance": 0.25,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "22": {
+            "mask_beta_factor": 0.5,
+            "mask_compliance": 0.5,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "23": {
+            "mask_beta_factor": 0.5,
+            "mask_compliance": 0.75,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "24": {
+            "mask_beta_factor": 0.5,
+            "mask_compliance": 1.0,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "25": {
+            "mask_beta_factor": 0.6,
+            "mask_compliance": 0.1,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "26": {
+            "mask_beta_factor": 0.6,
+            "mask_compliance": 0.25,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "27": {
+            "mask_beta_factor": 0.6,
+            "mask_compliance": 0.5,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "28": {
+            "mask_beta_factor": 0.6,
+            "mask_compliance": 0.75,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "29": {
+            "mask_beta_factor": 0.6,
+            "mask_compliance": 1.0,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "30": {
+            "mask_beta_factor": 0.7000000000000001,
+            "mask_compliance": 0.1,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "31": {
+            "mask_beta_factor": 0.7000000000000001,
+            "mask_compliance": 0.25,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "32": {
+            "mask_beta_factor": 0.7000000000000001,
+            "mask_compliance": 0.5,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "33": {
+            "mask_beta_factor": 0.7000000000000001,
+            "mask_compliance": 0.75,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "34": {
+            "mask_beta_factor": 0.7000000000000001,
+            "mask_compliance": 1.0,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "35": {
+            "mask_beta_factor": 0.8,
+            "mask_compliance": 0.1,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "36": {
+            "mask_beta_factor": 0.8,
+            "mask_compliance": 0.25,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "37": {
+            "mask_beta_factor": 0.8,
+            "mask_compliance": 0.5,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "38": {
+            "mask_beta_factor": 0.8,
+            "mask_compliance": 0.75,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "39": {
+            "mask_beta_factor": 0.8,
+            "mask_compliance": 1.0,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "40": {
+            "mask_beta_factor": 0.9,
+            "mask_compliance": 0.1,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "41": {
+            "mask_beta_factor": 0.9,
+            "mask_compliance": 0.25,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "42": {
+            "mask_beta_factor": 0.9,
+            "mask_compliance": 0.5,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "43": {
+            "mask_beta_factor": 0.9,
+            "mask_compliance": 0.75,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "44": {
+            "mask_beta_factor": 0.9,
+            "mask_compliance": 1.0,
+            "mask_wearing": true,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        },
+        "45": {
+            "mask_beta_factor": 0,
+            "mask_compliance": 0,
+            "mask_wearing": false,
+            "indoor_beta_ratio": 0.55,
+            "outdoor_beta_ratio": 0.05
+        }
+    },
+    "all_regions": [
+        "CXB-201",
+        "CXB-202",
+        "CXB-203",
+        "CXB-204",
+        "CXB-205",
+        "CXB-206",
+        "CXB-207",
+        "CXB-208",
+        "CXB-209",
+        "CXB-210",
+        "CXB-211",
+        "CXB-212",
+        "CXB-213",
+        "CXB-214",
+        "CXB-215",
+        "CXB-216",
+        "CXB-217",
+        "CXB-218",
+        "CXB-219",
+        "CXB-220",
+        "CXB-232"
+    ],
+    "all_timestamps": [
+        "2020-05-01",
+        "2020-05-02",
+        "2020-05-03",
+        "2020-05-04",
+        "2020-05-05",
+        "2020-05-06",
+        "2020-05-07",
+        "2020-05-08",
+        "2020-05-09",
+        "2020-05-10",
+        "2020-05-11",
+        "2020-05-12",
+        "2020-05-13",
+        "2020-05-14",
+        "2020-05-15",
+        "2020-05-16",
+        "2020-05-17",
+        "2020-05-18",
+        "2020-05-19",
+        "2020-05-20",
+        "2020-05-21",
+        "2020-05-22",
+        "2020-05-23",
+        "2020-05-24",
+        "2020-05-25",
+        "2020-05-26",
+        "2020-05-27",
+        "2020-05-28",
+        "2020-05-29",
+        "2020-05-30",
+        "2020-05-31",
+        "2020-06-01",
+        "2020-06-02",
+        "2020-06-03",
+        "2020-06-04",
+        "2020-06-05",
+        "2020-06-06",
+        "2020-06-07",
+        "2020-06-08",
+        "2020-06-09",
+        "2020-06-10",
+        "2020-06-11",
+        "2020-06-12",
+        "2020-06-13",
+        "2020-06-14",
+        "2020-06-15",
+        "2020-06-16",
+        "2020-06-17",
+        "2020-06-18",
+        "2020-06-19",
+        "2020-06-20",
+        "2020-06-21",
+        "2020-06-22",
+        "2020-06-23",
+        "2020-06-24",
+        "2020-06-25",
+        "2020-06-26",
+        "2020-06-27",
+        "2020-06-28",
+        "2020-06-29",
+        "2020-06-30",
+        "2020-07-01",
+        "2020-07-02",
+        "2020-07-03",
+        "2020-07-04",
+        "2020-07-05",
+        "2020-07-06",
+        "2020-07-07",
+        "2020-07-08",
+        "2020-07-09",
+        "2020-07-10",
+        "2020-07-11",
+        "2020-07-12",
+        "2020-07-13",
+        "2020-07-14",
+        "2020-07-15",
+        "2020-07-16",
+        "2020-07-17",
+        "2020-07-18",
+        "2020-07-19",
+        "2020-07-20",
+        "2020-07-21",
+        "2020-07-22",
+        "2020-07-23",
+        "2020-07-24",
+        "2020-07-25",
+        "2020-07-26",
+        "2020-07-27",
+        "2020-07-28",
+        "2020-07-29",
+        "2020-07-30",
+        "2020-07-31",
+        "2020-08-01",
+        "2020-08-02",
+        "2020-08-03",
+        "2020-08-04",
+        "2020-08-05",
+        "2020-08-06",
+        "2020-08-07",
+        "2020-08-08",
+        "2020-08-09",
+        "2020-08-10",
+        "2020-08-11",
+        "2020-08-12",
+        "2020-08-13",
+        "2020-08-14",
+        "2020-08-15",
+        "2020-08-16",
+        "2020-08-17",
+        "2020-08-18",
+        "2020-08-19",
+        "2020-08-20",
+        "2020-08-21",
+        "2020-08-22",
+        "2020-08-23",
+        "2020-08-24",
+        "2020-08-25",
+        "2020-08-26",
+        "2020-08-27",
+        "2020-08-28",
+        "2020-08-29",
+        "2020-08-30",
+        "2020-08-31",
+        "2020-09-01",
+        "2020-09-02",
+        "2020-09-03",
+        "2020-09-04",
+        "2020-09-05",
+        "2020-09-06",
+        "2020-09-07",
+        "2020-09-08",
+        "2020-09-09",
+        "2020-09-10",
+        "2020-09-11",
+        "2020-09-12",
+        "2020-09-13",
+        "2020-09-14",
+        "2020-09-15",
+        "2020-09-16",
+        "2020-09-17",
+        "2020-09-18",
+        "2020-09-19",
+        "2020-09-20",
+        "2020-09-21",
+        "2020-09-22",
+        "2020-09-23",
+        "2020-09-24",
+        "2020-09-25",
+        "2020-09-26",
+        "2020-09-27",
+        "2020-09-28",
+        "2020-09-29",
+        "2020-09-30",
+        "2020-10-01",
+        "2020-10-02",
+        "2020-10-03",
+        "2020-10-04",
+        "2020-10-05",
+        "2020-10-06",
+        "2020-10-07",
+        "2020-10-08",
+        "2020-10-09",
+        "2020-10-10",
+        "2020-10-11",
+        "2020-10-12",
+        "2020-10-13",
+        "2020-10-14",
+        "2020-10-15",
+        "2020-10-16",
+        "2020-10-17",
+        "2020-10-18",
+        "2020-10-19",
+        "2020-10-20",
+        "2020-10-21",
+        "2020-10-22",
+        "2020-10-23",
+        "2020-10-24",
+        "2020-10-25",
+        "2020-10-26",
+        "2020-10-27",
+        "2020-10-28",
+        "2020-10-29",
+        "2020-10-30",
+        "2020-10-31",
+        "2020-11-01",
+        "2020-11-02",
+        "2020-11-03",
+        "2020-11-04",
+        "2020-11-05",
+        "2020-11-06",
+        "2020-11-07",
+        "2020-11-08",
+        "2020-11-09",
+        "2020-11-10",
+        "2020-11-11",
+        "2020-11-12",
+        "2020-11-13",
+        "2020-11-14",
+        "2020-11-15",
+        "2020-11-16",
+        "2020-11-17",
+        "2020-11-18",
+        "2020-11-19",
+        "2020-11-20",
+        "2020-11-21",
+        "2020-11-22",
+        "2020-11-23",
+        "2020-11-24",
+        "2020-11-25",
+        "2020-11-26",
+        "2020-11-27",
+        "2020-11-28",
+        "2020-11-29",
+        "2020-11-30",
+        "2020-12-01",
+        "2020-12-02",
+        "2020-12-03",
+        "2020-12-04",
+        "2020-12-05",
+        "2020-12-06",
+        "2020-12-07",
+        "2020-12-08",
+        "2020-12-09",
+        "2020-12-10",
+        "2020-12-11",
+        "2020-12-12",
+        "2020-12-13",
+        "2020-12-14",
+        "2020-12-15",
+        "2020-12-16",
+        "2020-12-17",
+        "2020-12-18",
+        "2020-12-19",
+        "2020-12-20",
+        "2020-12-21",
+        "2020-12-22",
+        "2020-12-23",
+        "2020-12-24",
+        "2020-12-25",
+        "2020-12-26",
+        "2020-12-27",
+        "2020-12-28",
+        "2020-12-29",
+        "2020-12-30",
+        "2020-12-31"
+    ],
+    "all_fields": [
+        "currently_dead",
+        "currently_in_hospital",
+        "currently_in_hospital_0_12",
+        "currently_in_hospital_12_25",
+        "currently_in_hospital_25_65",
+        "currently_in_hospital_65_101",
+        "currently_infected",
+        "currently_infected_0_12",
+        "currently_infected_12_25",
+        "currently_infected_25_65",
+        "currently_infected_65_101",
+        "currently_recovered",
+        "currently_susceptible",
+        "currently_susceptible_0_12",
+        "currently_susceptible_12_25",
+        "currently_susceptible_25_65",
+        "currently_susceptible_65_101",
+        "deaths",
+        "deaths_0_12",
+        "deaths_12_25",
+        "deaths_25_65",
+        "deaths_65_101",
+        "hospital_admissions",
+        "hospital_admissions_0_12",
+        "hospital_admissions_12_25",
+        "hospital_admissions_25_65",
+        "hospital_admissions_65_101",
+        "icu_admissions",
+        "icu_admissions_0_12",
+        "icu_admissions_12_25",
+        "icu_admissions_25_65",
+        "icu_admissions_65_101",
+        "infected",
+        "infected_0_12",
+        "infected_12_25",
+        "infected_25_65",
+        "infected_65_101",
+        "n_infections_in_communal",
+        "n_infections_in_distribution_center",
+        "n_infections_in_e_voucher",
+        "n_infections_in_play_group",
+        "n_infections_in_pump_latrine",
+        "n_infections_in_religious",
+        "n_infections_in_shelter",
+        "recovered",
+        "recovered_0_12",
+        "recovered_12_25",
+        "recovered_25_65",
+        "recovered_65_101",
+        "region",
+        "timestamp"
+    ],
+    "field_statistics": {
+        "n_infections_in_communal": {
+            "max": 58.0,
+            "min": 0.0
+        },
+        "n_infections_in_distribution_center": {
+            "max": 4.0,
+            "min": 0.0
+        },
+        "n_infections_in_e_voucher": {
+            "max": 6.0,
+            "min": 0.0
+        },
+        "n_infections_in_play_group": {
+            "max": 30.0,
+            "min": 0.0
+        },
+        "n_infections_in_pump_latrine": {
+            "max": 40.0,
+            "min": 0.0
+        },
+        "n_infections_in_religious": {
+            "max": 11.0,
+            "min": 0.0
+        },
+        "n_infections_in_shelter": {
+            "max": 572.0,
+            "min": 0.0
+        },
+        "infected": {
+            "max": 663.0,
+            "min": 0.0
+        },
+        "infected_0_12": {
+            "max": 260.0,
+            "min": 0.0
+        },
+        "infected_12_25": {
+            "max": 167.0,
+            "min": 0.0
+        },
+        "infected_25_65": {
+            "max": 283.0,
+            "min": 0.0
+        },
+        "infected_65_101": {
+            "max": 8.0,
+            "min": 0.0
+        },
+        "deaths": {
+            "max": 7.0,
+            "min": 0.0
+        },
+        "deaths_0_12": {
+            "max": 1.0,
+            "min": 0.0
+        },
+        "deaths_12_25": {
+            "max": 1.0,
+            "min": 0.0
+        },
+        "deaths_25_65": {
+            "max": 7.0,
+            "min": 0.0
+        },
+        "deaths_65_101": {
+            "max": 2.0,
+            "min": 0.0
+        },
+        "hospital_admissions": {
+            "max": 13.0,
+            "min": 0.0
+        },
+        "hospital_admissions_0_12": {
+            "max": 2.0,
+            "min": 0.0
+        },
+        "hospital_admissions_12_25": {
+            "max": 3.0,
+            "min": 0.0
+        },
+        "hospital_admissions_25_65": {
+            "max": 13.0,
+            "min": 0.0
+        },
+        "hospital_admissions_65_101": {
+            "max": 3.0,
+            "min": 0.0
+        },
+        "icu_admissions": {
+            "max": 5.0,
+            "min": 0.0
+        },
+        "icu_admissions_0_12": {
+            "max": 1.0,
+            "min": 0.0
+        },
+        "icu_admissions_12_25": {
+            "max": 2.0,
+            "min": 0.0
+        },
+        "icu_admissions_25_65": {
+            "max": 5.0,
+            "min": 0.0
+        },
+        "icu_admissions_65_101": {
+            "max": 2.0,
+            "min": 0.0
+        },
+        "currently_in_hospital": {
+            "max": 55.0,
+            "min": 0.0
+        },
+        "currently_in_hospital_0_12": {
+            "max": 4.0,
+            "min": 0.0
+        },
+        "currently_in_hospital_12_25": {
+            "max": 7.0,
+            "min": 0.0
+        },
+        "currently_in_hospital_25_65": {
+            "max": 52.0,
+            "min": 0.0
+        },
+        "currently_in_hospital_65_101": {
+            "max": 7.0,
+            "min": 0.0
+        },
+        "currently_infected": {
+            "max": 13112.0,
+            "min": 0.0
+        },
+        "currently_infected_0_12": {
+            "max": 4935.0,
+            "min": 0.0
+        },
+        "currently_infected_12_25": {
+            "max": 2756.0,
+            "min": 0.0
+        },
+        "currently_infected_25_65": {
+            "max": 5405.0,
+            "min": 0.0
+        },
+        "currently_infected_65_101": {
+            "max": 51.0,
+            "min": 0.0
+        },
+        "recovered": {
+            "max": 668.0,
+            "min": 0.0
+        },
+        "recovered_0_12": {
+            "max": 271.0,
+            "min": 0.0
+        },
+        "recovered_12_25": {
+            "max": 159.0,
+            "min": 0.0
+        },
+        "recovered_25_65": {
+            "max": 251.0,
+            "min": 0.0
+        },
+        "recovered_65_101": {
+            "max": 7.0,
+            "min": 0.0
+        },
+        "currently_susceptible_0_12": {
+            "max": 15998.0,
+            "min": 363.0
+        },
+        "currently_susceptible_12_25": {
+            "max": 8839.0,
+            "min": 139.0
+        },
+        "currently_susceptible_25_65": {
+            "max": 16875.0,
+            "min": 336.0
+        },
+        "currently_susceptible_65_101": {
+            "max": 155.0,
+            "min": 0.0
+        },
+        "currently_susceptible": {
+            "max": 41593.0,
+            "min": 841.0
+        },
+        "currently_dead": {
+            "max": 60.0,
+            "min": 0.0
+        },
+        "currently_recovered": {
+            "max": 32191.0,
+            "min": 0.0
+        }
+    }
+}

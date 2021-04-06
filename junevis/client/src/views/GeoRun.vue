@@ -130,7 +130,7 @@ export default defineComponent({
     const mapData = ref([] as MapData[]);
     const shapes = ref(null as ExtendedGeometryCollection | null);
     const projection = ref(null as GeoProjection | null);
-    const projectId = ref(params.project || "learning_centers");
+    const projectId = ref(params.project || "mask_wearing");
     const runId = ref(params.runId || "6");
     const fieldExtent = ref(null as [number, number] | null);
 

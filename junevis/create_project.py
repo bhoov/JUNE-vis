@@ -126,8 +126,8 @@ from fastcore.script import *
 
 @call_parse
 def main(record_path:Param("Path to JUNE simulation records and parameter grid", str),
-         force_add_project:Param("Overwrite project if it already exists", action=store_true)=False,
-         test_only:Param("Test behavior without changing files", action=store_true)=False,
+         force_add_project:Param("Overwrite project if it already exists", store_true)=False,
+         test_only:Param("Test behavior without changing files", store_true)=False,
          project_name:Param("Name the project. If not provided, use folder name of `record_path`", str)=None,
          description:Param("Description of project", str)="NA",
         ):

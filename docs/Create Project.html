@@ -31,7 +31,7 @@ nb_path: "nbs/00_Create Project.ipynb"
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Assumes the following folder structure. It is important that logger files are named <code>record_NN.h5</code> or <code>record_NNN.h5</code></p>
+<h2 id="Folder-structure">Folder structure<a class="anchor-link" href="#Folder-structure"> </a></h2><p>Assumes the following folder structure. It is important that logger files are named <code>record_NN.h5</code> or <code>record_NNN.h5</code></p>
 <p>Note that, because the data format to communicate parameters used is a Pickle file, the filenames <strong>MUST</strong> be indexed at 0</p>
 
 <pre><code>SIMULATION_NAME/
@@ -49,6 +49,31 @@ nb_path: "nbs/00_Create Project.ipynb"
     summary_001.csv
     ...
     summary_NNN.csv</code></pre>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We are provided a <code>parameter_grid.json</code> file that looks like the following:</p>
+
+<pre><code>{
+    "pub": [
+        0.0953169,
+        0.521456,
+        0.40569099999999997,
+        0.484659,
+        0.138482
+    ],
+    "grocery": [
+        0.387384,
+        0.452953,
+        0.548852,
+        0.042028699999999995,
+        0.21261799999999997
+    ], ...
+}</code></pre>
+<p>(In this case, there are 5 runs and each run takes the parameter listed. This makes it tricky to do a grid search in the interface since many values will be distinct...)</p>
 
 </div>
 </div>
@@ -141,26 +166,13 @@ nb_path: "nbs/00_Create Project.ipynb"
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Creating-the-metadata.json">Creating the <code>metadata.json</code><a class="anchor-link" href="#Creating-the-metadata.json"> </a></h2><p>We are provided a <code>parameter_grid.json</code> file that looks like the following:</p>
-
-<pre><code>{
-    "pub": [
-        0.0953169,
-        0.521456,
-        0.40569099999999997,
-        0.484659,
-        0.138482
-    ],
-    "grocery": [
-        0.387384,
-        0.452953,
-        0.548852,
-        0.042028699999999995,
-        0.21261799999999997
-    ], ...
-}</code></pre>
-<p>(In this case, there are 5 runs and each run takes the parameter listed. This makes it tricky to do a grid search in the interface since many values will be distinct...)</p>
-<p>We want to have a metadata of the format:</p>
+<h2 id="Creating-the-metadata.json">Creating the <code>metadata.json</code><a class="anchor-link" href="#Creating-the-metadata.json"> </a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We want to convert the provided <code>parameter_grid.json</code> file into a <code>metadata.json</code> file (e.g., below) that also includes some basic summary statistics from the project. This has the format:</p>
 
 <pre><code>{
     "description": "Learning center comparison",

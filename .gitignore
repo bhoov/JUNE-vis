@@ -5,7 +5,8 @@ node_modules
 **/client/public/demo/projects/*
 
 # Example project
-!**/client/public/demo/projects/learning_centers
+# !**/client/public/demo/projects/learning_centers
+!**/client/public/demo/projects/mask_wearing
 
 # Other
 *.bak

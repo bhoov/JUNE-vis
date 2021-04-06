@@ -38,7 +38,7 @@ const state = reactive(<StateI>{
     availableRegions: [],
     legend: [],
     numericFields: [],
-    projectId: "learning_centers", // Change this to not be dependent on call
+    projectId: "mask_wearing", // Change this to not be dependent on call
     selectedRegion: "all",
     region: "CXB-201",
     xTrace: [],

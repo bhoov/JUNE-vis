@@ -208,6 +208,12 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
+
+:root {
+  --card-height: 260px;
+  --card-width: 240px;
+}
+
 svg {
   display: block;
   margin: auto;
@@ -265,10 +271,15 @@ path {
   position: relative;
   border-radius: 5px;
   transition: 0.3s;
-  width: 240px; // Make into variable
-  height: 260px;
+  width: var(--card-width); // Make into variable
+  height: var(--card-height);
   margin-top: 1.5rem;
   padding: 0.5rem;
+}
+
+.hyperparameter-display {
+  overflow-y: auto;
+  height: calc(--card-height / 3.5)
 }
 
 /* On mouse-over, add a deeper shadow */

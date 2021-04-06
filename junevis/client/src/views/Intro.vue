@@ -57,7 +57,7 @@
         <br>
         <p>
           Clicking the
-          <router-link to="/learning_centers/runDetails/1">
+          <router-link to="/mask_wearing/runDetails/1">
             <span class="tab">Compare Runs</span>
           </router-link>
           tab, or one of the scenario thumbnails at the bottom of the Explore Runs

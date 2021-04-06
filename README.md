@@ -8,7 +8,7 @@
 
 ## Serve the Example Project
 
-This code ships with an example project (`learning_centers`) for the interface. From the command line, run:
+This code ships with an example project (`mask_wearing`) for the interface. From the command line, run:
 
 `junevis_serve` 
 
