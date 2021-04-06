@@ -127,7 +127,7 @@ main {
 
 .pinned-runs {
   overflow-x: auto;
-  height: 330px;
+  height: 360px;
 }
 
 /* '>>>' is syntax sugar to penetrate components */
