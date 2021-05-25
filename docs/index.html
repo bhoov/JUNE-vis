@@ -55,6 +55,15 @@ nb_path: "nbs/index.ipynb"
 <h2 id="Add-new-simulation-results-to-JUNE-vis">Add new simulation results to JUNE-vis<a class="anchor-link" href="#Add-new-simulation-results-to-JUNE-vis"> </a></h2><p>The <code>JUNE</code> simulation logs events as they occur into hdf5 files called <code>records</code>. These are transformed into csv files called <code>summaries</code> that are automatically placed into a folder the frontend interface can serve. To create a new visualization from a simulation,</p>
 <p><code>junevis_create path/to/folder/containing/records</code></p>
 <p>For more details on the expected contents of this folder, see <a href="`https://bhoov.github.io/JUNE-vis/Create%20Project.html`">this documentation</a>.</p>
+<h3 id="Changing-the-homepage">Changing the homepage<a class="anchor-link" href="#Changing-the-homepage"> </a></h3><p>You will need to clone the source code if you want to change the landing page to describe the set of simulation results deployed. The file to change is in <code>junevis/client/src/views/Intro.vue</code> (this is a <code>.vue</code> file that contains all the needed HTML, CSS, and javascript).</p>
+<p>After cloning and making your desired changes, from this project's root:</p>
+
+<pre><code>pip install -e .
+cd junevis/client
+npm install
+npm run build
+junevis_serve</code></pre>
+<h3 id="Deploying">Deploying<a class="anchor-link" href="#Deploying"> </a></h3><p>You can easily host this for others to see by running <code>junevis_serve</code> and exposing (default port) <code>8000</code>.</p>
 
 </div>
 </div>

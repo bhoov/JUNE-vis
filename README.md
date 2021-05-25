@@ -20,6 +20,24 @@ The `JUNE` simulation logs events as they occur into hdf5 files called `records`
 
 For more details on the expected contents of this folder, see [this documentation](`https://bhoov.github.io/JUNE-vis/Create%20Project.html`).
 
+### Changing the homepage
+
+You will need to clone the source code if you want to change the landing page to describe the set of simulation results deployed. The file to change is in `junevis/client/src/views/Intro.vue` (this is a `.vue` file that contains all the needed HTML, CSS, and javascript).
+
+After cloning and making your desired changes, from this project's root:
+
+```
+pip install -e .
+cd junevis/client
+npm install
+npm run build
+junevis_serve
+```
+
+### Deploying
+
+You can easily host this for others to see by running `junevis_serve` and exposing (default port) `8000`. 
+
 # Walkthrough
 
 ## The Explore Page

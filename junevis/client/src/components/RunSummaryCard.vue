@@ -279,7 +279,7 @@ path {
 
 .hyperparameter-display {
   overflow-y: auto;
-  height: calc(--card-height / 3.5)
+  height: calc(var(--card-height) / 3.5)
 }
 
 /* On mouse-over, add a deeper shadow */
